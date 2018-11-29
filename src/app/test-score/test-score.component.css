@@ -32,5 +32,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   width: 100%;
-  
+}
+.pull-right {
+  float: right;
 }
