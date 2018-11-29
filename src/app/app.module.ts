@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
 import { ToastModule } from './toast/toast.module';
-import { LoginComponent } from './login/login.component';
 
 import { AppRoutes } from './app.routes';
 
@@ -18,7 +17,6 @@ import { TestScoreComponent } from './test-score/test-score.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
     MainNavComponent,
     HomeComponent,
     TestScoreComponent

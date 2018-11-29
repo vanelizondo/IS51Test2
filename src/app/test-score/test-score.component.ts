@@ -54,12 +54,16 @@ export class TestScoreComponent implements OnInit {
     return x.json();
   }
 
+  saveItem() {
+    this.saveToLocalStorage();
+    this.toastService.showToast('success', 7000, 'Success: Items saved!');
+  }
   saveToLocalStorage() {
     localStorage.setItem('test-data', JSON.stringify(this.tests));
   }
 
   addTest() {
-    this.tests.push({
+    this.tests.unshift({
       id: null,
       testName: null,
       pointsPossible: null,
@@ -83,9 +87,9 @@ export class TestScoreComponent implements OnInit {
     };
 
     if (this.myName === '') {
-      this.toastService.showToast('warning', 2000, 'Name must not be null');
+      this.toastService.showToast('warning', 7000, 'Name must not be null');
     } else if (this.myName.indexOf(', ') === -1) {
-      this.toastService.showToast('warning', 2000, 'Name must contain a comma and a space');
+      this.toastService.showToast('warning', 7000, 'Name must contain a comma and a space');
     } else {
       localStorage.setItem('test-data', JSON.stringify(data));
       this.router.navigate(['home', data]);
