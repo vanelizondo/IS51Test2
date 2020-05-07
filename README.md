@@ -121,7 +121,7 @@ When the save button is pressed, save the items to local storage and display a t
 
 ## Points Breakdown
 
-1. Show a toast or an alert showing about text when the "About" link is pressed 2pts
+<!-- 1. Show a toast or an alert showing about text when the "About" link is pressed 2pts -->
 2. convert name from <Last Name>, <First Name> to <First Name> <Last Name> and display text 5 pts
 3. Aggregate and Calculate Total Points Possible, Total Points Received and the percentage 5 pts
 4. perform input validation 5 pts
@@ -130,8 +130,8 @@ When the save button is pressed, save the items to local storage and display a t
 2. Name not containing a “, ”. 2.5 pts
   ```
 5. Save the items to local storage when the "Save" button is clicked 5 pts
-6. Add items when the "Add Test" button is clicked 5 pts
-7. Delete item (test) when the "delete" button is clicked 5 pts
-8. Read in the tests.json file and populate the list table with the initial tests (3) 5 pts
-9. Read items from local storage and display the items into the view 5 pts
+<!-- 6. Add items when the "Add Test" button is clicked 5 pts -->
+<!-- 7. Delete item (test) when the "delete" button is clicked 5 pts -->
+<!-- 8. Read in the tests.json file and populate the list table with the initial tests (3) 5 pts -->
+<!-- 9. Read items from local storage and display the items into the view 5 pts -->
 10. Display calculated results on the home page (see screenshot) 8 pts
